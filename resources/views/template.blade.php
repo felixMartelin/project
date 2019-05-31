@@ -10,7 +10,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
     <div class="container">
 
-        <a class="navbar-brand" href="{{url('/Conferences')}}">Logo</a>
+        <a class="navbar-brand" href="#">Logo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,17 +25,13 @@
                     <a class="nav-link dropdown-toggle" href="" id="navbardrop" data-toggle="dropdown">
                         Les Héros
                     </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="{{url('/Conferences')}}">Liste des conferences</a>
-                        <a class="dropdown-item" href="{{url('/ajoutConference')}}">Ajouter une conference</a>
-                    </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="" id="navbardrop" data-toggle="dropdown">
                         Top Ladder
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="{{url('/Formations')}}">Liste des formations</a>
+                        <a class="dropdown-item" href="#">Liste des formations</a>
                     </div>
                 </li>
             </ul>
