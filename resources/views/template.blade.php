@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
 {!! Html::style('lib/bootstrap/bootstrap.min.css') !!}
-{!! Html::style('css/formaweb.css') !!}
+{!! Html::style('css/basique.css') !!}
 <title>@yield('titrePage')</title>
 </head>
 <body>
