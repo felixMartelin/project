@@ -1,9 +1,8 @@
 @extends('template')
 
 @section('titrePage')
-    Accueil BrawlStar
+    Top Ladder
     @endsection
 
 @section('titreItem')
-    Page d'accueil
     @endsection

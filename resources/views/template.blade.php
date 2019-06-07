@@ -10,7 +10,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
     <div class="container">
 
-        <a class="navbar-brand" href="#">Logo</a>
+        <img src="../img/logo.png" width="10%" height="10%">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,18 +21,15 @@
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbardrop" data-toggle="dropdown">
-                        Les Héros
+                <li class="nav-item active">
+                    <a class="nav-link" href="brawlers">Les Brawlers
+                        <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbardrop" data-toggle="dropdown">
-                        Top Ladder
+                <li class="nav-item active">
+                    <a class="nav-link" href="ladder">Top Ladder
+                        <span class="sr-only">(current)</span>
                     </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Liste des formations</a>
-                    </div>
                 </li>
             </ul>
         </div>

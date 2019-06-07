@@ -1,9 +1,9 @@
 @extends('template')
 
 @section('titrePage')
-    Accueil BrawlStar
+    Page Brawlers
     @endsection
 
 @section('titreItem')
-    Page d'accueil
+
     @endsection
