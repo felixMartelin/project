@@ -5,7 +5,7 @@
     @endsection
 
 @section('titreItem')
-
+    Les brawlers
     @endsection
 
 @section('contenu')

@@ -5,6 +5,7 @@
     @endsection
 
 @section('titreItem')
+    Classement du Top Ladder Actuel
     @endsection
 
 @section('contenu')
