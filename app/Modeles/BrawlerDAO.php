@@ -29,6 +29,7 @@ class BrawlerDAO extends Model
         $leBrawler->setIdBrawler($unBrawler->IdBrawler);
         $leBrawler->setNomBrawler($unBrawler->NomBrawler);
         $leBrawler->setRareteBrawler($unBrawler->RareteBrawler);
+        $leBrawler->setDescBrawler($unBrawler->DescBrawler);
         $leBrawler->setVieBrawler($unBrawler->VieBrawler);
         $leBrawler->setDegatBrawler($unBrawler->DegatBrawler);
         $leBrawler->setDegatSuperBrawler($unBrawler->DegatSuperBrawler);
