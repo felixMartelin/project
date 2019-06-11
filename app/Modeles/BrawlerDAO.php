@@ -3,6 +3,7 @@
 namespace App\Modeles;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Metier\Brawler;
 use DB;
 
 class BrawlerDAO extends Model
@@ -16,13 +17,13 @@ class BrawlerDAO extends Model
         foreach($Brawlers as $brawler)
         {
             $idBrawler=$brawler->IdBrawler;
-            $LesBrawlers[$idBrawler]=$this->creerBrawler($brawler);
+            $LesBrawlers[$idBrawler]=$this->creerObjetMetier($brawler);
         }
 
         return $LesBrawlers;
     }
 
-    public function creerBrawler(\stdClass $unBrawler)
+    public function creerObjetMetier(\stdClass $unBrawler)
     {
         $leBrawler = new Brawler();
         $leBrawler->setIdBrawler($unBrawler->IdBrawler);

@@ -23,4 +23,5 @@
         <h4> Point de Vie du Brawler : {{ $brawler->getVieBrawler() }} </h4>
         <h4> Dégâts du Brawler : {{ $brawler->getDegatBrawler() }} </h4>
         <h4> Dégâts du Super : {{ $brawler->getDegatSuperBrawler() }} </h4>
+    @endforeach
     @endsection
