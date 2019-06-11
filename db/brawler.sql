@@ -16,7 +16,8 @@ create table Joueur (
 IdJoueur integer not null primary key auto_increment,
 NomJoueur varchar(45) not null,
 TropheeMaxJoueur integer,
-TropheeJoueur integer
+TropheeJoueur integer ,
+RangJoueur integer not null
 ) engine=innodb character set utf8 collate utf8_unicode_ci;
 
 create table BrawlerJoueur (
@@ -130,5 +131,25 @@ touchés. Son super lui permet d'effectuer un grand bond lors duquel il tire ses
 insert into Brawler values (26, "Léon", "Légendaire", "Léon lance une salve rapide de quatres lames tournantes. Plus l'adversaire est proche, plus les dégâts sont importants.
 Son super lui permet de devenir invisible pendant une durée de 7 secondes.",
 4350 , 620 , null , "Fumée sans feu" , "Lorsqu'il utilise son super, Léon se déplace plus rapidement.");
+
+insert into Joueur values (1, "Jean-Kevin", 9652, 9637 , 7);
+
+insert into Joueur values (2, "SuperNinja", 10542, 10542 , 4);
+
+insert into Joueur values (3, "Tomleboss", 4320, 4311 , 9);
+
+insert into Joueur values (4, "LuF", 9396, 9391 , 8);
+
+insert into Joueur values (5, "ThePGM69", 11347, 11304 , 3);
+
+insert into Joueur values (6, "NerfShellyPlease", 10230, 10230 , 5);
+
+insert into Joueur values (7, "Slacherr", 12546, 12546 , 1);
+
+insert into Joueur values (8, "xxProGamerxx", 1201, 1189 , 10);
+
+insert into Joueur values (9, "Nyros", 11968, 11959 , 2);
+
+insert into Joueur values (10, "NoBrain", 9974, 9973 , 6);
 
 
