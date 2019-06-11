@@ -9,7 +9,7 @@
     @endsection
 
 @section('contenu')
-    @foreach($lebrawler as $brawler)
+    @foreach($lesbrawlers as $brawler)
         <h2> Fiche Descriptive du Brawler :</h2>
         <br/>
         <h4> Nom du Brawler : {{ $brawler->getNomBrawler() }} </h4>

@@ -15,10 +15,6 @@ Route::get('/', function () {
     return view('accueil');
 });
 
-Route::get('/brawlers', function () {
-    return view('brawlers');
-});
+Route::get('/brawlers', 'BrawlerController@getBrawler');
 
-Route::get('/ladder', function () {
-    return view('ladder');
-});
+Route::get('/ladder', 'JoueurController@getJoueurs');
